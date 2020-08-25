@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  /* height: 100vh; */
+  display: grid;
+  place-items: center;
+  background: FFF;
+  overflow: hidden;
+}
+
+/* img {
+    position: relative;
+    width:140px;
+    margin: 80px auto 80px auto;
+} */
+
+#window {
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    overflow: hidden;
+}
+
+#imgSlider img {
+    width: 300px;
+    height: 300px;
+    transform: translateX(-300px);
+    animation: move 3s infinite;
+}
+
+#imgSlider {
+    display:flex;
+    /* transform: translateX(-300px); */
+}
+
+@keyframes move {
+    from{
+        transform: translateX(0);
+    }
+to {
+    transform: translateX(-3000px);
+}

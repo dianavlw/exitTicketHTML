@@ -3,9 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>My Awesome Form</title>
 </head>
 <body>
-  
+<h1 id="title">My Awesome Form</h1>
+<br>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" id="submit">
+</form>
+</div>
+
+<br>
+
+  <div class="form-group">
+    <p>What is your favorite color?</p>
+    <select id="dropdown" name="role" class="form-control" required>
+      <option disabled selected value>Select color</option>
+      <option value="reen">Green</option>
+      <option value="blue">Blue</option>
+      <option value="purple">Purple</option>
+      <option value="orange">Orange</option>
+      <option value="white">White</option>
+    </select>
+  </div>
 </body>
 </html>
